@@ -1,0 +1,2364 @@
+{
+  "object": "list",
+  "data": [
+    {
+      "id": "gpt-4o",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4o",
+        "developer": "Open AI",
+        "description": "GPT-4o integrates text, vision, and audio for multimodal AI applications.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/chat-gpt-4-omni"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "gpt-4o-2024-08-06",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4o 2024-08-06",
+        "developer": "Open AI",
+        "description": "Multimodal AI model by OpenAI enhancing human-computer interaction.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/gpt-4o-2024-08-06-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "gpt-4o-2024-05-13",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4o 2024-05-13",
+        "developer": "Open AI",
+        "description": "GPT-4o-2024-05-13 is the initial release version that established the GPT-4o multimodal model.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/gpt-4o-2024-05-13-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "gpt-4o-mini",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4o mini",
+        "developer": "Open AI",
+        "description": "GPT-4o Mini: Cost-efficient, advanced model for diverse AI applications.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/chat-gpt-4o-mini"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "gpt-4o-mini-2024-07-18",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4o mini 2024-07-18",
+        "developer": "Open AI",
+        "description": "GPT-4o Mini: Cost-efficient, advanced model for diverse AI applications.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/chat-gpt-4o-mini"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "chatgpt-4o-latest",
+      "type": "chat-completion",
+      "info": {
+        "name": "ChatGPT 4o latest",
+        "developer": "Open AI",
+        "description": "Multimodal AI model by OpenAI enhancing human-computer interaction.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/gpt-4o-2024-08-06-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "gpt-4-turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4 turbo",
+        "developer": "Open AI",
+        "description": "High-speed AI model for instant language processing. API for ChatGPT 4 Turbo.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/chat-gpt-4-turbo"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "gpt-4-turbo-2024-04-09",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4 turbo 2024-04-09",
+        "developer": "Open AI",
+        "description": "",
+        "contextLength": 128000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function",
+        "openai/chat-completion.vision"
+      ]
+    },
+    {
+      "id": "gpt-4",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4",
+        "developer": "Open AI",
+        "description": "Revolutionary AI model for unparalleled natural language interaction. API for ChatGPT 4.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/chat-gpt-4"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "gpt-4-0125-preview",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4 0125 preview",
+        "developer": "Open AI",
+        "description": "",
+        "contextLength": 8000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "gpt-4-1106-preview",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 4 1106 preview",
+        "developer": "Open AI",
+        "description": "",
+        "contextLength": 8000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "gpt-3.5-turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 3.5 turbo",
+        "developer": "Open AI",
+        "description": "",
+        "contextLength": 16000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "gpt-3.5-turbo-0125",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 3.5 turbo 0125",
+        "developer": "Open AI",
+        "description": "The newest GPT-3.5 Turbo with improved accuracy and encoding.",
+        "contextLength": 16000,
+        "url": "https://aimlapi.com/models/chat-gpt-3-5-turbo-0125"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "gpt-3.5-turbo-1106",
+      "type": "chat-completion",
+      "info": {
+        "name": "GPT 3.5 turbo 1106",
+        "developer": "Open AI",
+        "description": "The GPT-3.5 Turbo 1106 model features enhanced instruction adherence and a JSON mode",
+        "contextLength": 16000,
+        "url": "https://aimlapi.com/models/chat-gpt-3-5-turbo-1106"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "o1-preview",
+      "type": "chat-completion",
+      "info": {
+        "name": "o1 preview",
+        "developer": "Open AI",
+        "description": "New AI model from OpenAI for complex reasoning in science, coding, and mathematics.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/openai-o1-preview-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "o1-preview-2024-09-12",
+      "type": "chat-completion",
+      "info": {
+        "name": "o1 preview 2024-09-12",
+        "developer": "Open AI",
+        "description": "New AI model from OpenAI for complex reasoning in science, coding, and mathematics.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/openai-o1-preview-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "o1-mini",
+      "type": "chat-completion",
+      "info": {
+        "name": "o1 mini",
+        "developer": "Open AI",
+        "description": "Cost-efficient OpenAI reasoning model excelling in math and coding tasks.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/openai-o1-mini-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "o1-mini-2024-09-12",
+      "type": "chat-completion",
+      "info": {
+        "name": "o1 mini 2024-09-12",
+        "developer": "Open AI",
+        "description": "Cost-efficient OpenAI reasoning model excelling in math and coding tasks.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/openai-o1-mini-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "o3-mini",
+      "type": "chat-completion",
+      "info": {
+        "name": "o3 mini",
+        "developer": "Open AI",
+        "description": "OpenAI o3-mini excels in reasoning tasks with advanced features like deliberative alignment and extensive context support.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/openai-o3-mini-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "o1",
+      "type": "chat-completion",
+      "info": {
+        "name": "o1",
+        "developer": "Open AI",
+        "description": "OpenAI o1 excels in complex reasoning tasks with advanced features like chain-of-thought processing and extensive context support.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/openai-o1-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "microsoft/WizardLM-2-8x22B",
+      "type": "chat-completion",
+      "info": {
+        "name": "WizardLM 2 8x22B",
+        "developer": "Microsoft",
+        "description": "WizardLM 2-8 (22B) is a powerful language model designed for efficient multilingual interactions and complex reasoning tasks.",
+        "contextLength": 64000,
+        "url": "https://aimlapi.com/models/wizardlm-2-8-22b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.2-90B-Vision-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3.2 90B Vision Instruct Turbo",
+        "developer": "Meta",
+        "description": "Powerful multimodal AI model for advanced visual and language processing tasks.",
+        "contextLength": 131000,
+        "url": "https://aimlapi.com/models/llama-3-2-90b-vision-instruct-turbo-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "Meta-Llama/Llama-Guard-7b",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama Guard 7B",
+        "developer": "Meta",
+        "description": "Enhanced AI moderation with Llama Guard, a specialized LLM model",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/llama-guard-7b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "google/gemma-2-27b-it",
+      "type": "chat-completion",
+      "info": {
+        "name": "Gemma 2 27B it",
+        "developer": "Google",
+        "description": "Gemma-2 27B is a powerful language model designed for efficient text generation across multiple applications with significant performance enhancements.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/gemma-2-27b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-Vision-Free",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama Vision Free",
+        "developer": "Meta",
+        "description": "",
+        "contextLength": 128000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "Gryphe/MythoMax-L2-13b",
+      "type": "chat-completion",
+      "info": {
+        "name": "MythoMax L2 13B",
+        "developer": "Gryphe",
+        "description": "Unlock advanced storytelling and roleplaying with the MythoMax-L2 (13B) API.",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/mythomax-l2-13b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "mistralai/Mixtral-8x22B-Instruct-v0.1",
+      "type": "chat-completion",
+      "info": {
+        "name": "Mixtral 8x22B Instruct v0.1",
+        "developer": "Mistral AI",
+        "description": "Advanced Mixtral-8x22B-Instruct-v0.1 excels in efficient, instruction-driven task performance across sectors.",
+        "contextLength": 64000,
+        "url": "https://aimlapi.com/models/mixtral-8x22b-instruct"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2-72B-Instruct",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen2 72B Instruct",
+        "developer": "Qwen",
+        "description": "State-of-the-art AI model improving customer engagements through sophisticated chat functionalities.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/qwen-2-instruct-72b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "type": "chat-completion",
+      "info": {
+        "name": "Mixtral 8x7B Instruct v0.1",
+        "developer": "Mistral AI",
+        "description": "Harness the power of tailored AI with Mixtral-8x7B Instruct v0.1 API",
+        "contextLength": 64000,
+        "url": "https://aimlapi.com/models/mixtral-8x7b-instruct-v01"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "nvidia/Llama-3.1-Nemotron-70B-Instruct-HF",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3.1 Nemotron 70B Instruct HF",
+        "developer": "Nvidia",
+        "description": "Llama 3.1 Nemotron is an advanced instruction-following language model optimized for high-performance applications.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/llama-3-1-nemotron-70b-instruct-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "NousResearch/Nous-Hermes-2-Mixtral-8x7B-DPO",
+      "type": "chat-completion",
+      "info": {
+        "name": "Nous Hermes 2 Mixtral 8x7B DPO",
+        "developer": "NousResearch",
+        "description": "Advanced decision-making with Nous Hermes 2 - Mixtral 8x7B-DPO API",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/nous-hermes-2-mixtral-8x7b-dpo"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "deepseek-ai/deepseek-llm-67b-chat",
+      "type": "chat-completion",
+      "info": {
+        "name": "Deepseek llm 67B chat",
+        "developer": "DeepSeek AI",
+        "description": "API for DeepSeek LLM 67B Chat: Advanced Conversational AI",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/deepseek-llm-67b-chat"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.3-70B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3.3 70B Instruct Turbo",
+        "developer": "Meta",
+        "description": "Meta Llama 3.3 70B Instruct Turbo is an advanced language model optimized for instruction-following tasks with high efficiency and performance.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/meta-llama-3-3-70b-instruct-turbo-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "upstage/SOLAR-10.7B-Instruct-v1.0",
+      "type": "chat-completion",
+      "info": {
+        "name": "SOLAR 10.7B Instruct v1.0",
+        "developer": "Upstage",
+        "description": "Advanced AI model for interactive learning and instruction. API for Upstage SOLAR Instruct v1 (11B).",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/upstage-solar-instruct-v1-11b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.2-3B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3.2 3B Instruct Turbo",
+        "developer": "Meta",
+        "description": "Efficient multilingual LLM for diverse NLP tasks with 3B parameters.",
+        "contextLength": 131000,
+        "url": "https://aimlapi.com/models/llama-3-2-3b-instruct-turbo"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3.2-11B-Vision-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3.2 11B Vision Instruct Turbo",
+        "developer": "Meta",
+        "description": "Powerful multimodal AI model for image-text tasks with 11B parameters.",
+        "contextLength": 131000,
+        "url": "https://aimlapi.com/models/llama-3-2-11b-vision-instruct-turbo-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-2-13b-chat-hf",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 2 13B chat hf",
+        "developer": "Meta",
+        "description": "Transform communication with LLaMA-2 Chat (13B) API",
+        "contextLength": 4100,
+        "url": "https://aimlapi.com/models/llama-2-chat-13b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-Guard-3-11B-Vision-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama Guard 3 11B Vision Turbo",
+        "developer": "Meta",
+        "description": "",
+        "contextLength": 128000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen2.5 7B Instruct Turbo",
+        "developer": "Qwen",
+        "description": "Qwen 2.5 7B Instruct Turbo excels in coding and instruction following.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/qwen-2-5-7b-instruct-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-Coder-32B-Instruct",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen2.5 Coder 32B Instruct",
+        "developer": "Qwen",
+        "description": "",
+        "contextLength": 131000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "databricks/dbrx-instruct",
+      "type": "chat-completion",
+      "info": {
+        "name": "Dbrx instruct",
+        "developer": "Databricks",
+        "description": "Powerful open-source LLM with exceptional performance on a wide range of benchmarks.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/dbrx-instruct"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-8B-Instruct-Lite",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama 3 8B Instruct Lite",
+        "developer": "Meta",
+        "description": "Llama 3 8B Instruct Lite: Advanced, fast and cheapest one text generation model optimized for dialogue, emphasizing safety and helpfulness",
+        "contextLength": 9000,
+        "url": "https://aimlapi.com/models/llama-3-8b-instruct-lite-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3-8b-chat-hf",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3 8B chat hf",
+        "developer": "Meta",
+        "description": "Llama 3 8B: Efficient, powerful language model for diverse NLP tasks.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/llama-3-8b-instruct-reference-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo-128K",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama 3.1 8B Instruct Turbo 128K",
+        "developer": "Meta",
+        "description": "",
+        "contextLength": 128000,
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3-70b-chat-hf",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3 70B chat hf",
+        "developer": "Meta",
+        "description": "Meta Llama 3 70B Chat excels in complex language tasks with advanced instruction-driven capabilities.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/meta-llama-3-70b-instruct"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "Qwen/Qwen2.5-72B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen2.5 72B Instruct Turbo",
+        "developer": "Qwen",
+        "description": "Qwen 2.5 Instruct Turbo excels in coding tasks with expansive context capabilities.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/qwen-2-5-72b-instruct-turbo"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-405B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama 3.1 405B Instruct Turbo",
+        "developer": "Meta",
+        "description": "Llama 3.1 405B: Advanced text generation model by Meta AI.",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/llama-3-1-405b-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-8B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama 3.1 8B Instruct Turbo",
+        "developer": "Meta",
+        "description": "Advanced language model for high-quality text generation and multilingual support.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/llama-3-1-8b-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-70B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama 3.1 70B Instruct Turbo",
+        "developer": "Meta",
+        "description": "Llama 3.1 70B Instruct Turbo: Meta's advanced, multilingual, instruction-tuned language model for diverse, high-accuracy natural language tasks.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/llama-3-1-70b-instruct-turbo-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "google/gemma-2b-it",
+      "type": "chat-completion",
+      "info": {
+        "name": "Gemma 2B it",
+        "developer": "Google",
+        "description": "Advanced AI model for personalized learning and instructional design solutions.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/gemma-instruct-2b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.2",
+      "type": "chat-completion",
+      "info": {
+        "name": "Mistral 7B Instruct v0.2",
+        "developer": "Mistral AI",
+        "description": "Cutting-edge AI model for advanced instruction optimization in Mistral (7B).",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/mistral-7b-instruct-v02"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/LlamaGuard-2-8b",
+      "type": "chat-completion",
+      "info": {
+        "name": "LlamaGuard 2 8B",
+        "developer": "Meta",
+        "description": "Llama-based 8B model for safe LLM content classification",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/llama-guard-2-8b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.1",
+      "type": "chat-completion",
+      "info": {
+        "name": "Mistral 7B Instruct v0.1",
+        "developer": "Mistral AI",
+        "description": "Enhance task execution with Mistral (7B) Instruct v0.1 API",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/mistral-7b-instruct"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-7B-Instruct-v0.3",
+      "type": "chat-completion",
+      "info": {
+        "name": "Mistral 7B Instruct v0.3",
+        "developer": "Mistral AI",
+        "description": "Mistral 7B Instruct v0.3: new, advanced, instruction-based language model with enhanced features.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/mistral-7b-instruct-v0-3"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-70B-Instruct-Turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama 3 70B Instruct Turbo",
+        "developer": "Meta",
+        "description": "Llama 3.1 70B Instruct Turbo: Meta&#x27;s advanced, multilingual, instruction-tuned language model for diverse, high-accuracy natural language tasks.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/llama-3-1-70b-instruct-turbo-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3-70B-Instruct-Lite",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama 3 70B Instruct Lite",
+        "developer": "Meta",
+        "description": "Llama 3 70B Instruct Lite by Meta: Optimized for dialogue, high performance, diverse applications.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/llama-3-70b-instruct-lite-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "google/gemma-2-9b-it",
+      "type": "chat-completion",
+      "info": {
+        "name": "Gemma 2 9B it",
+        "developer": "Google",
+        "description": "Gemma 2 (9B): Efficient, open-source language model with competitive performance.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/gemma-2-9b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "Gryphe/MythoMax-L2-13b-Lite",
+      "type": "chat-completion",
+      "info": {
+        "name": "MythoMax L2 13B Lite",
+        "developer": "Gryphe",
+        "description": "Unlock advanced storytelling and roleplaying with the MythoMax-L2 (13B) API.",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/mythomax-l2-13b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-2-7b-chat-hf",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 2 7B chat hf",
+        "developer": "Meta",
+        "description": "Elevate conversation with LLaMA-2 Chat (7B) API",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/llama-2-chat-7b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-Guard-3-8B",
+      "type": "chat-completion",
+      "info": {
+        "name": "Meta Llama Guard 3 8B",
+        "developer": "Meta",
+        "description": "Llama Guard 3 (8B) is an advanced language model focused on ensuring safe AI interactions through effective content moderation techniques",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/llama-guard-3-8b"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "claude-3-opus-20240229",
+      "type": "chat-completion",
+      "info": {
+        "name": "Claude 3 opus 2024-02-29",
+        "developer": "Anthropic",
+        "description": "Claude-3-Opus - advanced AI for text and image processing, enhanced multilingual support.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/claude-3-opus"
+      },
+      "features": [
+        "anthropic/message-completion",
+        "anthropic/message-completion.vision",
+        "anthropic/message-completion.function"
+      ]
+    },
+    {
+      "id": "claude-3-sonnet-20240229",
+      "type": "chat-completion",
+      "info": {
+        "name": "Claude 3 sonnet 2024-02-29",
+        "developer": "Anthropic",
+        "description": "Efficient, quick-response multimodal AI for diverse, real-time applications.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/claude-3-sonnet"
+      },
+      "features": [
+        "anthropic/message-completion",
+        "anthropic/message-completion.vision",
+        "anthropic/message-completion.function"
+      ]
+    },
+    {
+      "id": "claude-3-haiku-20240307",
+      "type": "chat-completion",
+      "info": {
+        "name": "Claude 3 haiku 2024-03-07",
+        "developer": "Anthropic",
+        "description": "Cost-efficient, high-speed AI for entry-level and real-time applications.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/claude-3-haiku"
+      },
+      "features": [
+        "anthropic/message-completion",
+        "anthropic/message-completion.vision",
+        "anthropic/message-completion.function"
+      ]
+    },
+    {
+      "id": "claude-3-5-sonnet-20240620",
+      "type": "chat-completion",
+      "info": {
+        "name": "Claude 3.5 sonnet 2024-06-20",
+        "developer": "Anthropic",
+        "description": "Superior reasoning, coding proficiency, and computer vision capabilities.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/claude-3-5-sonnet"
+      },
+      "features": [
+        "anthropic/message-completion",
+        "anthropic/message-completion.vision",
+        "anthropic/message-completion.function"
+      ]
+    },
+    {
+      "id": "claude-3-5-sonnet-20241022",
+      "type": "chat-completion",
+      "info": {
+        "name": "Claude 3.5 sonnet 2024-10-22",
+        "developer": "Anthropic",
+        "description": "Superior reasoning, coding proficiency, and computer vision capabilities.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/claude-3-5-sonnet"
+      },
+      "features": [
+        "anthropic/message-completion",
+        "anthropic/message-completion.vision",
+        "anthropic/message-completion.function"
+      ]
+    },
+    {
+      "id": "claude-3-5-haiku-20241022",
+      "type": "chat-completion",
+      "info": {
+        "name": "Claude 3.5 haiku 2024-10-22",
+        "developer": "Anthropic",
+        "description": "Claude 3.5 Haiku is a high-speed language model optimized for diverse applications.",
+        "contextLength": 200000,
+        "url": "https://aimlapi.com/models/claude-3-5-haiku-api"
+      },
+      "features": [
+        "anthropic/message-completion"
+      ]
+    },
+    {
+      "id": "gemini-1.5-flash",
+      "type": "chat-completion",
+      "info": {
+        "name": "Gemini 1.5 flash",
+        "developer": "Google",
+        "description": "Gemini 1.5 Flash is a fast, multimodal AI model for developers.",
+        "contextLength": 1000000,
+        "url": "https://aimlapi.com/models/gemini-1-5-flash-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "gemini-1.5-pro",
+      "type": "chat-completion",
+      "info": {
+        "name": "Gemini 1.5 pro",
+        "developer": "Google",
+        "description": "Gemini 1.5 Pro is a powerful multimodal AI model for developers.",
+        "contextLength": 1000000,
+        "url": "https://aimlapi.com/models/gemini-1-5-pro-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "gemini-pro",
+      "type": "chat-completion",
+      "info": {
+        "name": "Gemini pro",
+        "developer": "Google",
+        "description": "Gemini 1.0 Pro is a multimodal AI model by Google DeepMind.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/gemini-1-0-pro-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "gemini-2.0-flash-exp",
+      "type": "chat-completion",
+      "info": {
+        "name": "Gemini 2.0 flash exp",
+        "developer": "Google",
+        "description": "Gemini 2.0 Flash Experimental is a powerful multimodal AI model for advanced agentic experiences with low latency and enhanced performance.",
+        "contextLength": 1000000,
+        "url": "https://aimlapi.com/models/gemini-2-0-flash-experimental"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "deepseek-chat",
+      "type": "chat-completion",
+      "info": {
+        "name": "DeepSeek V3",
+        "developer": "DeepSeek AI",
+        "description": "DeepSeek-V3 is an advanced LLM with efficient architecture and high performance across various natural language tasks.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/deepseek-v3"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "deepseek-reasoner",
+      "type": "chat-completion",
+      "info": {
+        "name": "DeepSeek R1",
+        "developer": "DeepSeek AI",
+        "description": "DeepSeek R1 excels in reasoning tasks with advanced features like chain-of-thought processing and efficient parameter activation",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/deepseek-r1-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "qwen-max",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen max",
+        "developer": "Alibaba Cloud",
+        "description": "Qwen Max: powerful AI, excels in stability, competes globally.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/qwen-max-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "qwen-plus",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen Plus",
+        "developer": "Alibaba Cloud",
+        "description": "Qwen-Plus: Alibaba's advanced multilingual model with enhanced reasoning and instruction-following capabilities.",
+        "contextLength": 131000,
+        "url": "https://aimlapi.com/models/qwen-plus-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "qwen-turbo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen Turbo",
+        "developer": "Alibaba Cloud",
+        "description": "Qwen Turbo: optimizes AI agent speed, integrates with RAG, large context window.",
+        "contextLength": 1000000,
+        "url": "https://aimlapi.com/models/qwen-turbo-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "qwen-max-2025-01-25",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qwen Max 2025-01-25",
+        "developer": "Alibaba Cloud",
+        "description": "Alibaba's Qwen Max: a powerful, multilingual MoE model for diverse AI tasks",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/qwen-max-2025-01-25-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "mistralai/mistral-tiny",
+      "type": "chat-completion",
+      "info": {
+        "name": "Mistral tiny",
+        "developer": "Mistral AI",
+        "description": "Mistral Tiny: Efficient language model with advanced text generation capabilities.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/mistral-tiny-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "x-ai/grok-beta",
+      "type": "chat-completion",
+      "info": {
+        "name": "Grok beta",
+        "developer": "X AI",
+        "description": "Grok-2 excels in coding assistance and conversational AI tasks.",
+        "contextLength": 131000,
+        "url": "https://aimlapi.com/models/grok-2-beta-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "mistralai/mistral-nemo",
+      "type": "chat-completion",
+      "info": {
+        "name": "Mistral nemo",
+        "developer": "Mistral AI",
+        "description": "Mistral-Nemo is a powerful multilingual language model with advanced capabilities.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/mistral-nemo-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "neversleep/llama-3.1-lumimaid-70b",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3.1 lumimaid 70B",
+        "developer": "Open Source",
+        "description": "Llama-3.1-Lumimaid is a powerful conversational AI model with extensive capabilities.",
+        "contextLength": 8000,
+        "url": "https://aimlapi.com/models/llama-3-1-lumimaid-70b-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "anthracite-org/magnum-v4-72b",
+      "type": "chat-completion",
+      "info": {
+        "name": "Magnum v4 72B",
+        "developer": "Anthracite",
+        "description": "Magnum V4 is a powerful language model optimized for high-quality text generation tasks.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/magnum-v4-72b-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "nvidia/llama-3.1-nemotron-70b-instruct",
+      "type": "chat-completion",
+      "info": {
+        "name": "Llama 3.1 nemotron 70B instruct",
+        "developer": "Nvidia",
+        "description": " Llama 3.1 Nemotron is an advanced instruction-following language model optimized for high-performance applications.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/llama-3-1-nemotron-70b-instruct-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "cohere/command-r-plus",
+      "type": "chat-completion",
+      "info": {
+        "name": "Command r plus",
+        "developer": "Cohere",
+        "description": "Command R+ is a powerful LLM with advanced capabilities for enterprise applications.",
+        "contextLength": 128000,
+        "url": "https://aimlapi.com/models/command-r-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "ai21/jamba-1-5-mini",
+      "type": "chat-completion",
+      "info": {
+        "name": "Jamba 1 5 mini",
+        "developer": "AI21 Labs",
+        "description": "Jamba 1.5 Mini is a powerful language model designed for efficient instruction-following tasks.",
+        "contextLength": 256000,
+        "url": "https://aimlapi.com/models/jamba-1-5-mini-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "qwen/qvq-72b-preview",
+      "type": "chat-completion",
+      "info": {
+        "name": "Qvq 72B preview",
+        "developer": "Qwen",
+        "description": "QVQ-72B-Preview enhances visual reasoning with multimodal capabilities for advanced problem-solving across various domains.",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/qvq-72b-preview-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "mistralai/codestral-2501",
+      "type": "chat-completion",
+      "info": {
+        "name": "Codestral 2501",
+        "developer": "Mistral AI",
+        "description": "Mistral Codestral-2501 excels in code generation with advanced features like fill-in-the-middle completion and extensive language support.",
+        "contextLength": 256000,
+        "url": "https://aimlapi.com/models/mistral-codestral-2501-api"
+      },
+      "features": [
+        "openai/chat-completion"
+      ]
+    },
+    {
+      "id": "MiniMax-Text-01",
+      "type": "chat-completion",
+      "info": {
+        "contextLength": 1000000,
+        "description": "MiniMax-Text-01 excels in long-context processing with advanced features like hybrid attention mechanisms and open-source accessibility.",
+        "name": "Text 01",
+        "developer": "Minimax AI",
+        "url": "https://aimlapi.com/models/minimax-text-01-api"
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "abab6.5s-chat",
+      "type": "chat-completion",
+      "info": {
+        "contextLength": 245000,
+        "description": "",
+        "name": "Abab 6.5s Chat",
+        "developer": "Minimax AI",
+        "url": ""
+      },
+      "features": [
+        "openai/chat-completion",
+        "openai/chat-completion.vision",
+        "openai/chat-completion.function"
+      ]
+    },
+    {
+      "id": "dall-e-3",
+      "type": "image",
+      "info": {
+        "developer": "Open AI",
+        "description": "Turn text into art with DALLÂ·E 3, the AI that brings creative visions to life.",
+        "name": "DALL-E 3",
+        "url": "https://aimlapi.com/models/openai-dall-e-3"
+      },
+      "features": []
+    },
+    {
+      "id": "dall-e-2",
+      "type": "image",
+      "info": {
+        "developer": "Open AI",
+        "description": "DALLÂ·E 2 generates realistic images from text, enhancing creative applications",
+        "name": "DALL-E 2",
+        "url": "https://aimlapi.com/models/openai-dall-e-2-api"
+      },
+      "features": []
+    },
+    {
+      "id": "stabilityai/stable-diffusion-xl-base-1.0",
+      "type": "image",
+      "info": {
+        "name": "Stable diffusion XL base 1.0",
+        "developer": "Stability AI",
+        "description": "Leading-edge AI model for creating detailed and large-scale images. API for Stable Diffusion XL 1.0.",
+        "url": "https://aimlapi.com/models/stable-diffusion-xl-1-0"
+      },
+      "features": []
+    },
+    {
+      "id": "imagen-3.0-generate-002",
+      "type": "image",
+      "info": {
+        "name": "Imagen 3.0",
+        "developer": "Google",
+        "description": "Imagen 3: Google's high-quality text-to-image model with enhanced realism and understanding.",
+        "url": "https://aimlapi.com/models/imagen-3-api"
+      },
+      "features": []
+    },
+    {
+      "id": "flux/schnell",
+      "type": "image",
+      "info": {
+        "name": "Schnell",
+        "developer": "Flux",
+        "description": "FLUX.1 [schnell] is a cutting-edge text-to-image model for developers.",
+        "url": "https://aimlapi.com/models/flux-1-schnell-api"
+      },
+      "features": []
+    },
+    {
+      "id": "flux-pro",
+      "type": "image",
+      "info": {
+        "name": "Flux pro",
+        "developer": "Flux",
+        "description": "FLUX.1 [pro]: The ultimate AI image generation model for professionals.",
+        "url": "https://aimlapi.com/models/flux-1-pro-api"
+      },
+      "features": []
+    },
+    {
+      "id": "flux-pro/v1.1",
+      "type": "image",
+      "info": {
+        "name": "Flux pro 1.1",
+        "developer": "Flux",
+        "description": "FLUX 1.1 [Pro] delivers rapid image generation with advanced features tailored for developers.",
+        "url": "https://aimlapi.com/models/flux-1-1-pro-api"
+      },
+      "features": []
+    },
+    {
+      "id": "flux-pro/v1.1-ultra",
+      "type": "image",
+      "info": {
+        "name": "Flux pro 1.1 ultra",
+        "developer": "Flux",
+        "description": "Flux 1.1 Pro Ultra is a high-speed AI image generator optimized for diverse applications.",
+        "url": "https://aimlapi.com/models/flux-1-1-pro-ultra-api"
+      },
+      "features": []
+    },
+    {
+      "id": "flux/dev",
+      "type": "image",
+      "info": {
+        "name": "Flux dev",
+        "developer": "Flux",
+        "description": "FLUX.1 [dev] is an advanced image generation model by Black Forest Labs.",
+        "url": "https://aimlapi.com/models/flux-1-dev-api"
+      },
+      "features": []
+    },
+    {
+      "id": "flux/dev/image-to-image",
+      "type": "image",
+      "info": {
+        "name": "Flux dev image-to-image",
+        "developer": "Flux",
+        "description": "FLUX.1 [dev] is an advanced image generation model by Black Forest Labs.",
+        "url": "https://aimlapi.com/models/flux-1-dev-api"
+      },
+      "features": []
+    },
+    {
+      "id": "stable-diffusion-v3-medium",
+      "type": "image",
+      "info": {
+        "name": "Stable diffusion v3 medium",
+        "developer": "Stability AI",
+        "description": "Enhanced Stable Diffusion 3 text-to-image model with improved text quality, efficiency and understanding",
+        "url": "https://aimlapi.com/models/stable-diffusion-3-api"
+      },
+      "features": []
+    },
+    {
+      "id": "stable-diffusion-v35-large",
+      "type": "image",
+      "info": {
+        "name": "Stable diffusion v3.5 large",
+        "developer": "Stability AI",
+        "description": "Stable Diffusion 3.5 Large enhances image generation with advanced architecture and diverse outputs.",
+        "url": "https://aimlapi.com/models/stable-diffusion-3-5-large-api"
+      },
+      "features": []
+    },
+    {
+      "id": "flux-realism",
+      "type": "image",
+      "info": {
+        "name": "Flux realism",
+        "developer": "Flux",
+        "description": "FLUX Realism LoRA generates photorealistic images from text prompts, enhancing creative possibilities.",
+        "url": "https://aimlapi.com/models/flux-realism-lora-api"
+      },
+      "features": []
+    },
+    {
+      "id": "recraft-v3",
+      "type": "image",
+      "info": {
+        "name": "Recraft v3",
+        "developer": "Recraft AI",
+        "description": "State-of-the-art AI image generator with superior text and vector capabilities.",
+        "url": "https://aimlapi.com/models/recraft-v3"
+      },
+      "features": []
+    },
+    {
+      "id": "triposr",
+      "type": "image",
+      "info": {
+        "name": "Triposr",
+        "developer": "Tripo AI",
+        "description": "TripoSR: Fast, transformer-based 3D reconstruction model from single RGB images.",
+        "url": "https://aimlapi.com/models/stable-tripo-sr-api"
+      },
+      "features": []
+    },
+    {
+      "id": "runway-gen3/turbo/image-to-video",
+      "type": "video",
+      "info": {
+        "name": "Turbo",
+        "developer": "Runway ML",
+        "description": "",
+        "url": ""
+      },
+      "features": []
+    },
+    {
+      "id": "kling-video/v1/standard/image-to-video",
+      "type": "video",
+      "info": {
+        "name": "Kling 1.0 Standard image-to-video",
+        "developer": "Kling AI",
+        "description": "Kling AI Image-to-Video generates high-quality videos from images using advanced AI techniques for dynamic visual storytelling.",
+        "url": "https://aimlapi.com/models/kling-ai-image-to-video"
+      },
+      "features": []
+    },
+    {
+      "id": "kling-video/v1/standard/text-to-video",
+      "type": "video",
+      "info": {
+        "name": "Kling 1.0 Standard text-to-video",
+        "developer": "Kling AI",
+        "description": "Kling AI Text-to-Video generates high-quality videos from text prompts using advanced AI techniques for dynamic visual storytelling.",
+        "url": "https://aimlapi.com/models/kling-ai-text-to-video-api"
+      },
+      "features": []
+    },
+    {
+      "id": "kling-video/v1/pro/image-to-video",
+      "type": "video",
+      "info": {
+        "name": "Kling 1.0 Pro image-to-video",
+        "developer": "Kling AI",
+        "description": "Kling AI Image-to-Video generates high-quality videos from images using advanced AI techniques for dynamic visual storytelling.",
+        "url": "https://aimlapi.com/models/kling-ai-image-to-video"
+      },
+      "features": []
+    },
+    {
+      "id": "kling-video/v1/pro/text-to-video",
+      "type": "video",
+      "info": {
+        "name": "Kling 1.0 Pro text-to-video",
+        "developer": "Kling AI",
+        "description": "Kling AI Text-to-Video generates high-quality videos from text prompts using advanced AI techniques for dynamic visual storytelling.",
+        "url": "https://aimlapi.com/models/kling-ai-text-to-video-api"
+      },
+      "features": []
+    },
+    {
+      "id": "kling-video/v1.6/standard/text-to-video",
+      "type": "video",
+      "info": {
+        "name": "Kling 1.6 Standard text-to-video",
+        "developer": "Kling AI",
+        "description": "Kling 1.6 enhances video generation with improved prompt adherence and dynamic visuals for diverse creative applications.",
+        "url": "https://aimlapi.com/models/kling-1-6-standard"
+      },
+      "features": []
+    },
+    {
+      "id": "kling-video/v1.6/standard/image-to-video",
+      "type": "video",
+      "info": {
+        "name": "Kling 1.6 Standard image-to-video",
+        "developer": "Kling AI",
+        "description": "Kling 1.6 enhances video generation with improved prompt adherence and dynamic visuals for diverse creative applications.",
+        "url": "https://aimlapi.com/models/kling-1-6-standard"
+      },
+      "features": []
+    },
+    {
+      "id": "kling-video/v1.6/pro/image-to-video",
+      "type": "video",
+      "info": {
+        "name": "Kling 1.6 Pro image-to-video",
+        "developer": "Kling AI",
+        "description": "Kling 1.6 enhances video generation with improved prompt adherence and dynamic visuals for diverse creative applications.",
+        "url": "https://aimlapi.com/models/kling-1-6-pro-api"
+      },
+      "features": []
+    },
+    {
+      "id": "stable-audio",
+      "type": "audio",
+      "info": {
+        "name": "Stable audio",
+        "developer": "Stability AI",
+        "description": "Stable Audio generates high-quality audio from text prompts with innovative features like audio transformation and extensive creative control.",
+        "url": "https://aimlapi.com/models/stable-audio"
+      },
+      "features": []
+    },
+    {
+      "id": "minimax-music",
+      "type": "audio",
+      "info": {
+        "name": "Minimax music",
+        "developer": "Minimax AI",
+        "description": "",
+        "url": ""
+      },
+      "features": []
+    },
+    {
+      "id": "text-embedding-3-small",
+      "type": "embedding",
+      "info": {
+        "name": "Text embedding 3 small",
+        "developer": "Open AI",
+        "description": "",
+        "url": "",
+        "contextLength": 8000
+      },
+      "features": []
+    },
+    {
+      "id": "text-embedding-3-large",
+      "type": "embedding",
+      "info": {
+        "name": "Text embedding 3 large",
+        "developer": "Open AI",
+        "description": "High-performance embedding model with flexible dimensions and superior accuracy.",
+        "url": "https://aimlapi.com/models/text-embedding-3-large",
+        "contextLength": 8000
+      },
+      "features": []
+    },
+    {
+      "id": "text-embedding-ada-002",
+      "type": "embedding",
+      "info": {
+        "name": "Text embedding ada 002",
+        "developer": "Open AI",
+        "description": "Reliable embedding model offering solid performance for various tasks.",
+        "url": "https://aimlapi.com/models/text-embedding-ada-002",
+        "contextLength": 8000
+      },
+      "features": []
+    },
+    {
+      "id": "togethercomputer/m2-bert-80M-32k-retrieval",
+      "type": "embedding",
+      "info": {
+        "name": "M2 bert 80M 32k retrieval",
+        "developer": "Together AI",
+        "description": "High-capacity AI model for comprehensive search and information retrieval. API for M2-BERT-Retrieval-32k.",
+        "url": "https://aimlapi.com/models/m2-bert-retrieval-32k",
+        "contextLength": 32000
+      },
+      "features": []
+    },
+    {
+      "id": "BAAI/bge-base-en-v1.5",
+      "type": "embedding",
+      "info": {
+        "name": "Bge base en v1.5",
+        "developer": "BAAI",
+        "description": "AI model for generating precise language embeddings. API for BAAI-Bge-Base-1p5.",
+        "url": "https://aimlapi.com/models/baai-bge-base-1p5",
+        "contextLength": null
+      },
+      "features": []
+    },
+    {
+      "id": "togethercomputer/m2-bert-80M-2k-retrieval",
+      "type": "embedding",
+      "info": {
+        "name": "M2 bert 80M 2k retrieval",
+        "developer": "Together AI",
+        "description": "Compact and efficient AI model for quick data search and retrieval. API for M2-BERT-Retrieval-2K.",
+        "url": "https://aimlapi.com/models/m2-bert-retrieval-2k",
+        "contextLength": null
+      },
+      "features": []
+    },
+    {
+      "id": "BAAI/bge-large-en-v1.5",
+      "type": "embedding",
+      "info": {
+        "name": "Bge large en v1.5",
+        "developer": "BAAI",
+        "description": "High-performance AI model for deep language embedding. API for BGE-Large-EN-v1.5.",
+        "url": "https://aimlapi.com/models/baai-bge-large-1p5",
+        "contextLength": null
+      },
+      "features": []
+    },
+    {
+      "id": "togethercomputer/m2-bert-80M-8k-retrieval",
+      "type": "embedding",
+      "info": {
+        "name": "M2 bert 80M 8k retrieval",
+        "developer": "Together AI",
+        "description": "State-of-the-art AI model for efficient data search and retrieval. API for M2-BERT-Retrieval-8k.",
+        "url": "https://aimlapi.com/models/m2-bert-retrieval-8k",
+        "contextLength": 8000
+      },
+      "features": []
+    },
+    {
+      "id": "voyage-large-2-instruct",
+      "type": "embedding",
+      "info": {
+        "name": "Voyage large 2 instruct",
+        "developer": "Anthropic",
+        "description": "Voyage Large 2 Instruct excels in text embedding tasks.",
+        "url": "https://aimlapi.com/models/voyage-large-2-instruct-api",
+        "contextLength": 16000
+      },
+      "features": []
+    },
+    {
+      "id": "voyage-finance-2",
+      "type": "embedding",
+      "info": {
+        "name": "Voyage finance 2",
+        "developer": "Anthropic",
+        "description": "",
+        "url": "",
+        "contextLength": 32000
+      },
+      "features": []
+    },
+    {
+      "id": "voyage-multilingual-2",
+      "type": "embedding",
+      "info": {
+        "name": "Voyage multilingual 2",
+        "developer": "Anthropic",
+        "description": "",
+        "url": "",
+        "contextLength": 32000
+      },
+      "features": []
+    },
+    {
+      "id": "voyage-law-2",
+      "type": "embedding",
+      "info": {
+        "name": "Voyage law 2",
+        "developer": "Anthropic",
+        "description": "",
+        "url": "",
+        "contextLength": 16000
+      },
+      "features": []
+    },
+    {
+      "id": "voyage-code-2",
+      "type": "embedding",
+      "info": {
+        "name": "Voyage code 2",
+        "developer": "Anthropic",
+        "description": "",
+        "url": "",
+        "contextLength": 16000
+      },
+      "features": []
+    },
+    {
+      "id": "voyage-large-2",
+      "type": "embedding",
+      "info": {
+        "name": "Voyage large 2",
+        "developer": "Anthropic",
+        "description": "",
+        "url": "",
+        "contextLength": 16000
+      },
+      "features": []
+    },
+    {
+      "id": "voyage-2",
+      "type": "embedding",
+      "info": {
+        "name": "Voyage 2",
+        "developer": "Anthropic",
+        "description": "",
+        "url": "",
+        "contextLength": 4000
+      },
+      "features": []
+    },
+    {
+      "id": "textembedding-gecko@001",
+      "type": "embedding",
+      "info": {
+        "name": "Textembedding gecko@001",
+        "developer": "Google",
+        "description": "",
+        "url": "",
+        "contextLength": 3000
+      },
+      "features": []
+    },
+    {
+      "id": "textembedding-gecko@003",
+      "type": "embedding",
+      "info": {
+        "name": "Textembedding gecko@003",
+        "developer": "Google",
+        "description": "Textembedding-gecko@003 is a versatile text embedding model by Google",
+        "url": "https://aimlapi.com/models/textembedding-gecko-003-api",
+        "contextLength": 2000
+      },
+      "features": []
+    },
+    {
+      "id": "textembedding-gecko-multilingual@001",
+      "type": "embedding",
+      "info": {
+        "name": "Textembedding gecko multilingual@001",
+        "developer": "Google",
+        "description": "Textembedding-gecko-multilingual@001 is a powerful multilingual text embedding model",
+        "url": "https://aimlapi.com/models/textembedding-gecko-multilingual-001-api",
+        "contextLength": 2000
+      },
+      "features": []
+    },
+    {
+      "id": "text-multilingual-embedding-002",
+      "type": "embedding",
+      "info": {
+        "name": "Text multilingual embedding 002",
+        "developer": "Google",
+        "description": "",
+        "url": "",
+        "contextLength": 2000
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-general",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 general",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-meeting",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 meeting",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-phonecall",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 phonecall",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-voicemail",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 voicemail",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-finance",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 finance",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-conversationalai",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 conversationalai",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-video",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 video",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-medical",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 medical",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-drivethru",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 drivethru",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_nova-2-automotive",
+      "type": "stt",
+      "info": {
+        "name": "#g1 nova 2 automotive",
+        "developer": "Deepgram",
+        "description": "Nova-2: Advanced, versatile ASR model for diverse transcription needs.",
+        "url": "https://aimlapi.com/models/deepgram-nova-2"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_whisper-large",
+      "type": "stt",
+      "info": {
+        "name": "#g1 whisper large",
+        "developer": "Deepgram",
+        "description": "Whisper: Multilingual speech recognition model, robust, versatile, open-source.",
+        "url": "https://aimlapi.com/models/whisper"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_whisper-medium",
+      "type": "stt",
+      "info": {
+        "name": "#g1 whisper medium",
+        "developer": "Deepgram",
+        "description": "Whisper: Multilingual speech recognition model, robust, versatile, open-source.",
+        "url": "https://aimlapi.com/models/whisper"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_whisper-small",
+      "type": "stt",
+      "info": {
+        "name": "#g1 whisper small",
+        "developer": "Deepgram",
+        "description": "Whisper: Multilingual speech recognition model, robust, versatile, open-source.",
+        "url": "https://aimlapi.com/models/whisper"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_whisper-tiny",
+      "type": "stt",
+      "info": {
+        "name": "#g1 whisper tiny",
+        "developer": "Deepgram",
+        "description": "Whisper: Multilingual speech recognition model, robust, versatile, open-source.",
+        "url": "https://aimlapi.com/models/whisper"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_whisper-base",
+      "type": "stt",
+      "info": {
+        "name": "#g1 whisper base",
+        "developer": "Deepgram",
+        "description": "Whisper: Multilingual speech recognition model, robust, versatile, open-source.",
+        "url": "https://aimlapi.com/models/whisper"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_redaction",
+      "type": "stt",
+      "info": {
+        "name": "#g1 redaction",
+        "developer": "Deepgram",
+        "description": "",
+        "url": ""
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-asteria-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura asteria en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-hera-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura hera en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-luna-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura luna en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-stella-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura stella en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-athena-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura athena en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-zeus-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura zeus en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-orion-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura orion en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-arcas-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura arcas en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-perseus-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura perseus en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-angus-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura angus en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-orpheus-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura orpheus en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "#g1_aura-helios-en",
+      "type": "tts",
+      "info": {
+        "name": "#g1 aura helios en",
+        "developer": "Deepgram",
+        "description": "Aura is a real-time TTS model with human-like voices for conversational AI applications.",
+        "url": "https://aimlapi.com/models/aura"
+      },
+      "features": []
+    },
+    {
+      "id": "gpt-3.5-turbo-instruct",
+      "type": "language-completion",
+      "info": {
+        "name": "Gpt 3.5 turbo instruct",
+        "developer": "Open AI",
+        "description": "OpenAI GPT-3.5-Turbo-Instruct: Streamlined AI for precise, instruction-driven interactions.",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/chat-gpt-3-5-turbo-instruct"
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "mistralai/Mixtral-8x7B-v0.1",
+      "type": "language-completion",
+      "info": {
+        "name": "Mixtral 8x7B v0.1",
+        "developer": "Mistral AI",
+        "description": "Mixtral 8x7B V0.1 revolutionizes AI with its Sparse Mixture-of-Experts model",
+        "contextLength": 32000,
+        "url": "https://aimlapi.com/models/mixtral-8x7b-v01"
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "mistralai/Mistral-7B-v0.1",
+      "type": "language-completion",
+      "info": {
+        "name": "Mistral 7B v0.1",
+        "developer": "Mistral AI",
+        "description": "Powered by AI/ML and Mistral AI, delivering ChatGPT-level output. up to 80% cheaper than GPT-3.5 - From $0.50 per 1 million tokens.",
+        "contextLength": 4000,
+        "url": "https://aimlapi.com/models/llm-chat-api"
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "NousResearch/Nous-Hermes-13b",
+      "type": "language-completion",
+      "info": {
+        "name": "Nous Hermes 13B",
+        "developer": "NousResearch",
+        "description": "",
+        "contextLength": 8000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "togethercomputer/llama-2-7b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 2 7B",
+        "developer": "Together AI",
+        "description": "",
+        "contextLength": 4000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "huggyllama/llama-7b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 7B",
+        "developer": "Huggy Llama",
+        "description": "",
+        "contextLength": 2000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "WizardLM/WizardLM-70B-V1.0",
+      "type": "language-completion",
+      "info": {
+        "name": "WizardLM 70B V1.0",
+        "developer": "Wizard LM",
+        "description": "",
+        "contextLength": 4096,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "huggyllama/llama-65b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 65B",
+        "developer": "Huggy Llama",
+        "description": "",
+        "contextLength": 2000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "togethercomputer/llama-2-13b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 2 13B",
+        "developer": "Together AI",
+        "description": "",
+        "contextLength": 4000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "togethercomputer/llama-2-70b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 2 70B",
+        "developer": "Together AI",
+        "description": "",
+        "contextLength": 4000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "huggyllama/llama-13b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 13B",
+        "developer": "Huggy Llama",
+        "description": "",
+        "contextLength": 16000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "huggyllama/llama-30b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 30B",
+        "developer": "Huggy Llama",
+        "description": "",
+        "contextLength": 2000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "EleutherAI/llemma_7b",
+      "type": "language-completion",
+      "info": {
+        "name": "Llemma 7B",
+        "developer": "Eleuther AI",
+        "description": "",
+        "contextLength": 4000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Llama-3-70b-hf",
+      "type": "language-completion",
+      "info": {
+        "name": "Llama 3 70B hf",
+        "developer": "Meta",
+        "description": "",
+        "contextLength": 8000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-8B-Reference",
+      "type": "language-completion",
+      "info": {
+        "name": "Meta Llama 3.1 8B Reference",
+        "developer": "Meta",
+        "description": "",
+        "contextLength": 128000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "meta-llama/Meta-Llama-3.1-70B-Reference",
+      "type": "language-completion",
+      "info": {
+        "name": "Meta Llama 3.1 70B Reference",
+        "developer": "Meta",
+        "description": "",
+        "contextLength": 128000,
+        "url": ""
+      },
+      "features": [
+        "openai/completion"
+      ]
+    },
+    {
+      "id": "music-01",
+      "type": "audio",
+      "info": {
+        "description": "MiniMax Music generates high-quality music from text prompts using advanced AI techniques for diverse musical compositions.",
+        "name": "Music 01",
+        "developer": "Minimax AI",
+        "url": "https://aimlapi.com/models/minimax-music-api"
+      },
+      "features": []
+    },
+    {
+      "id": "video-01",
+      "type": "video",
+      "info": {
+        "name": "Video 01",
+        "developer": "Minimax AI",
+        "description": "Minimax Video-01 generates high-quality videos from text prompts or image using advanced AI techniques for diverse creative applications.",
+        "url": "https://aimlapi.com/models/minimax-video-01-api"
+      },
+      "features": []
+    },
+    {
+      "id": "video-01-live2d",
+      "type": "video",
+      "info": {
+        "name": "Video 01 live2d",
+        "developer": "Minimax AI",
+        "description": "Minimax Video-01 generates high-quality videos from text prompts or image using advanced AI techniques for diverse creative applications.",
+        "url": "https://aimlapi.com/models/minimax-video-01-api"
+      },
+      "features": []
+    },
+    {
+      "id": "gen3a_turbo",
+      "type": "video",
+      "info": {
+        "developer": "Runway ML",
+        "description": "Runway Gen-3 Turbo generates high-quality videos from images quickly and efficiently, enhancing creative workflows",
+        "name": "",
+        "url": "https://aimlapi.com/models/runway-gen-3-turbo"
+      },
+      "features": []
+    }
+  ]
+}

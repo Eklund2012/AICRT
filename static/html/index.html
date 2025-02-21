@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta tags for character encoding and responsive design -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Code Reviewer</title>
+
+    <!-- Bootstrap CSS for responsive design and styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS files -->
+    <link href="styles/base.css" rel="stylesheet">
+    <link href="styles/form.css" rel="stylesheet">
+    <link href="styles/button.css" rel="stylesheet">
+    <link href="styles/dropdown.css" rel="stylesheet">
+    <link href="styles/output.css" rel="stylesheet">
+    <link href="styles/utils.css" rel="stylesheet">
+    <link href="styles/footer.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card">
+                    <!-- Header section with title and subtitle -->
+                    <div class="card-header text-center">
+                        <h2 class="mb-0">🚀 AI Code Reviewer</h2>
+                        <p class="small">Paste your code below for AI analysis</p>
+                    </div>
+                    <div class="card-body">
+
+                        <!-- Code Input Section -->
+                        <div class="mb-4">
+                            <label for="code" class="form-label fw-bold">💻 Your Code:</label>
+                            <textarea id="code" class="form-control" rows="10" placeholder="Paste your code here..."
+                                spellcheck="false"></textarea>
+                        </div>
+
+                        <!-- AI Model and Advanced Settings (Next to Each Other) -->
+                        <div class="mb-4 row">
+                            <!-- AI Model Selection Section -->
+                            <div class="col-md-6">
+                                <label for="aiModel" class="form-label fw-bold">🤖 Choose AI Model:</label>
+                                <div class="dropdown-container">
+                                    <select id="aiModel" class="form-select">
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Advanced AI Settings (Collapsible) -->
+                            <div class="col-md-6 d-flex flex-column">
+                                <!-- Advanced Settings Button at the Bottom -->
+                                <label for="" class="form-label fw-bold">Customize Parameters:</label>
+                                <button class="btn btn-outline-secondary bg-secondary text-dark w-100 mt-auto"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#advancedSettings">
+                                    ⚙️ Advanced Settings
+                                </button>
+
+                                <!-- Collapsible Advanced Settings Section -->
+                                <div id="advancedSettings" class="collapse mt-3">
+                                    <div class="card-secondary card-body">
+                                        <!-- Temperature Setting with Info Button -->
+                                        <div class="mb-3">
+                                            <label for="temperature" class="form-label fw-bold">Temperature:</label>
+                                            <div class="d-flex align-items-center">
+                                                <!-- Temperature Slider -->
+                                                <input type="range" id="temperature" class="form-range" min="0" max="2"
+                                                    step="0.1" value="0.7">
+                                                <span id="temperatureValue" class="text-muted ms-2">0.7</span>
+
+                                                <!-- Info Button -->
+                                                <button type="button" class="btn btn-link p-0 ms-2"
+                                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="Creativity and randomness of the response.">
+                                                    <i class="bi bi-info-circle" style="font-size: 1.2rem;"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="top-p" class="form-label fw-bold">Top-P:</label>
+                                            <div class="d-flex align-items-center">
+                                                <!-- Top-p Slider -->
+                                                <input type="range" id="top-p" class="form-range" min="0" max="1"
+                                                    step="0.1" value="0.7">
+                                                <span id="top_pValue" class="text-muted ms-2">0.7</span>
+
+                                                <!-- Info Button -->
+                                                <button type="button" class="btn btn-link p-0 ms-2"
+                                                    data-bs-toggle="tooltip" data-bs-placement="top"
+                                                    title="Dynamically adjust the number of choices for each predicted token, which helps to maintain diversity and generate more fluent and natural-sounding text.">
+                                                    <i class="bi bi-info-circle" style="font-size: 1.2rem;"></i>
+                                                </button>
+                                            </div>
+                                        </div>
+                                        <a class="text-primary" target="_blank" href="https://medium.com/@1511425435311/understanding-openais-temperature-and-top-p-parameters-in-language-models-d2066504684f">Learn More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Model Description Display -->
+                        <div class="mb-4" id="modelDescription">
+                            <p class="text-muted">Select a model to see details.</p>
+                        </div>
+
+                        <!-- Analyze Button to trigger code review -->
+                        <div class="text-center mb-4">
+                            <button id="analyzeBtn" class="btn btn-lg w-100">🔍 Analyze Code</button>
+                        </div>
+
+                        <!-- Suggestions Output Section -->
+                        <h4>💡 Suggestions :</h4>
+                        <div id="output">
+                            <p class="text-muted">No analysis yet. Paste code and click "Analyze".</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Section -->
+        <footer class="text-center mt-5 py-3 bg-dark">
+            <div>
+                <a href="https://github.com/Eklund2012/ai-code-review-tool" target="_blank" class="btn btn-link btn-sm">GitHub</a>
+            </div>
+        </footer>
+
+    </div>
+
+
+
+
+    <!-- Bootstrap JavaScript bundle for interactive components -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript file for handling code analysis logic -->
+    <script type="module" src="/clientscript/client-script.js"></script>
+</body>
+
+</html>

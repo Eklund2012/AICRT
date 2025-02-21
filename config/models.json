@@ -1,0 +1,76 @@
+{
+    "models": [
+      {
+        "id": "mistralai/Mistral-7B-Instruct-v0.2",
+        "type": "chat-completion",
+        "info": {
+          "name": "Mistral 7B Instruct v0.2",
+          "developer": "Mistral AI",
+          "description": "Cutting-edge AI model for advanced instruction optimization in Mistral (7B).",
+          "contextLength": 32000,
+          "url": "https://aimlapi.com/models/mistral-7b-instruct-v02"
+        },
+        "features": [
+          "openai/chat-completion"
+        ]
+      },
+      {
+        "id": "gpt-4o-mini",
+        "type": "chat-completion",
+        "info": {
+          "name": "GPT 4o mini",
+          "developer": "Open AI",
+          "description": "GPT-4o Mini: Cost-efficient, advanced model for diverse AI applications.",
+          "contextLength": 128000,
+          "url": "https://aimlapi.com/models/chat-gpt-4o-mini"
+        },
+        "features": [
+          "openai/chat-completion",
+          "openai/chat-completion.function",
+          "openai/chat-completion.vision"
+        ]
+      },
+      {
+        "id": "Qwen/Qwen2.5-7B-Instruct-Turbo",
+        "type": "chat-completion",
+        "info": {
+          "name": "Qwen2.5 7B Instruct Turbo",
+          "developer": "Qwen",
+          "description": "Qwen 2.5 7B Instruct Turbo excels in coding and instruction following.",
+          "contextLength": 32000,
+          "url": "https://aimlapi.com/models/qwen-2-5-7b-instruct-api"
+        },
+        "features": [
+          "openai/chat-completion"
+        ]
+      },
+      {
+        "id": "gemini-pro",
+        "type": "chat-completion",
+        "info": {
+          "name": "Gemini pro",
+          "developer": "Google",
+          "description": "Gemini 1.0 Pro is a multimodal AI model by Google DeepMind.",
+          "contextLength": 32000,
+          "url": "https://aimlapi.com/models/gemini-1-0-pro-api"
+        },
+        "features": [
+          "openai/chat-completion"
+        ]
+      },
+      {
+        "id": "deepseek-chat",
+        "type": "chat-completion",
+        "info": {
+          "name": "DeepSeek V3",
+          "developer": "DeepSeek AI",
+          "description": "DeepSeek-V3 is an advanced LLM with efficient architecture and high performance across various natural language tasks.",
+          "contextLength": 128000,
+          "url": "https://aimlapi.com/models/deepseek-v3"
+        },
+        "features": [
+          "openai/chat-completion"
+        ]
+      }
+    ]
+  }

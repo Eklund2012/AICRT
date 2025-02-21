@@ -1,0 +1,38 @@
+/* Styled select dropdown */
+#aiModel {
+    background: #0f1b2d;
+    color: white;
+    border: 2px solid #415a77;
+    border-radius: 12px;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+    appearance: none;
+    cursor: pointer;
+    padding-right: 40px;
+}
+
+/* Custom dropdown arrow */
+.dropdown-container::after {
+    content: "▼";
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+/* Highlight on hover/focus */
+#aiModel:hover, #aiModel:focus {
+    border-color: #00adb5;
+    box-shadow: 0 0 10px rgba(0, 255, 195, 0.5);
+}
+
+/* Wrap the dropdown inside a container */
+.dropdown-container {
+    position: relative;
+    width: 100%;
+}

@@ -1,0 +1,25 @@
+/* Analyze button styling */
+#analyzeBtn {
+    background: linear-gradient(135deg, #00adb5, #007bff);
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.1rem;
+    padding: 12px;
+    font-weight: 600;
+    box-shadow: 0 4px 10px rgba(0, 173, 181, 0.3);
+}
+
+/* Hover effect */
+#analyzeBtn:hover {
+    background: linear-gradient(135deg, #00ffc3, #3399ff);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(0, 255, 195, 0.5);
+}
+
+/* Active effect */
+#analyzeBtn:active {
+    background: linear-gradient(135deg, #009688, #0056b3);
+    transform: translateY(1px) scale(0.98);
+    box-shadow: 0 2px 6px rgba(0, 255, 195, 0.3);
+}

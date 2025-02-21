@@ -1,0 +1,9 @@
+/* Utility for shadows */
+.box-shadow-light {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Utility for rounded corners */
+.rounded-lg {
+    border-radius: 12px;
+}

@@ -1,0 +1,33 @@
+/* Output section styling */
+#output {
+    background: #1b1b2f;
+    color: white;
+    border-radius: 12px;
+    min-height: 150px;
+    padding: 1rem;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Override Bootstrap's default muted text color */
+.text-muted {
+    color: white !important;
+}
+
+/* Style for highlighted code parts */
+.highlighted-code {
+    background: #000000;
+    color: #00ff88; /* Green text color */
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    border: none;
+    border-radius: 12px;
+    resize: none;
+    padding: 10px;
+    line-height: 1.5;
+    caret-color: white; /* Cursor color */
+    padding: 2px 4px; /* Optional: Adds some padding around the code */
+}
+
+.ai_code{
+    background: #000000;
+}

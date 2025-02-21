@@ -1,0 +1,53 @@
+/* Text area styling */
+.form-control {
+    background: #1b1b2f;
+    color: #00ff88;
+    border: none;
+    border-radius: 12px;
+    resize: none;
+}
+
+/* Label text styling */
+.form-label {
+    color: white !important;
+    font-weight: 600;
+}
+
+/* Model Description Styling */
+#modelDescription {
+    color: white !important;
+    background: #1b1b2f;
+    padding: 1rem;
+    border-radius: 12px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for the code input area */
+#code {
+    background: #1b1b2f;
+    color: #00ff88; /* Green text color */
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14px;
+    border: none;
+    border-radius: 12px;
+    resize: none;
+    padding: 10px;
+    line-height: 1.5;
+    caret-color: white; /* Cursor color */
+}
+
+.form-control::placeholder {
+    color: #00ff88 !important; /* Ensure it gets applied */
+    opacity: 1 !important; /* Make sure it stays fully opaque */
+}
+
+#code::placeholder {
+    color: #00ff88 !important;
+    opacity: 1 !important;
+}
+
+/* Label text styling - White color */
+.form-label {
+    color: white !important;
+    font-weight: 600; /* Make it slightly bold for readability */
+}
