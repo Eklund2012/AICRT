@@ -33,19 +33,40 @@ document.getElementById('analyzeBtn').addEventListener('click', async () => {
 
         const data = await response.json(); // Parse the JSON response from the server
 
-        // Function to highlight code parts in green
-        function highlightCode(text) {
-            // Regex to match text within backticks (`)
-            return text.replace(/(^|\n)```([\s\S]*?)```(\n|$)/g, '\n<br><div id="ai_code"><span class="highlighted-code">$2</span></div><br>\n');
-        }
-
         // Display suggestions and highlight code parts
-        document.getElementById('output').innerHTML = highlightCode(data.suggestions) || 'No suggestions received.'; 
+        try {
+            const outputElement = document.getElementById('output');
+            if (outputElement) {
+                const { suggestions, language } = data; // Ensure API returns 'language'
+        
+                if (suggestions) {
+                    const langClass = language ? `language-${language}` : "language-none"; // Default to 'none' if unknown
+                    outputElement.innerHTML = `<pre><code class="${langClass}">${escapeHtml(suggestions)}</code></pre>`;
+                    Prism.highlightAll(); // Apply Prism formatting
+                } else {
+                    outputElement.innerText = 'No suggestions received.';
+                }
+            } else {
+                console.error('Element with id "output" not found.');
+            }
+        } catch (error) {
+            console.error('An error occurred:', error);
+        }
     } catch (error) {
         console.error("Error occurred:", error); // Log errors to the console
         document.getElementById('output').innerText = `Error: ${error.message}`; // Display error messages to the user
     }
 });
+
+// Function to escape HTML (to prevent security issues like XSS)
+function escapeHtml(unsafe) {
+    return unsafe
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+}
 
 // Fetch available AI models and populate dropdown with descriptions
 async function loadModels() {

@@ -13,21 +13,18 @@
     color: white !important;
 }
 
-/* Style for highlighted code parts */
-.highlighted-code {
-    background: #000000;
-    color: #00ff88; /* Green text color */
-    font-family: "Courier New", Courier, monospace;
-    font-size: 14px;
-    border: none;
-    border-radius: 12px;
-    resize: none;
+pre {
+    background-color: #1e1e1e; /* Dark gray background */
+    color: #ffffff; /* White text */
     padding: 10px;
-    line-height: 1.5;
-    caret-color: white; /* Cursor color */
-    padding: 2px 4px; /* Optional: Adds some padding around the code */
+    border-radius: 8px;
+    overflow-x: auto; /* Enables horizontal scrolling for long code */
+    font-family: 'Courier New', monospace;
 }
 
-.ai_code{
-    background: #000000;
+code {
+    font-size: 14px;
 }
+
+
+

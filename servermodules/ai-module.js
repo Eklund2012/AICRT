@@ -17,7 +17,7 @@ const api = new OpenAI({
   baseURL: BASE_URL,
 });
 
-const systemPrompt = "You are a helpful and nice teacher, be educational and provide positive feedback.";
+const systemPrompt = "You are a helpful and nice teacher, be educational and provide positive feedback."; // limits character per line to 79
 const userPrompt = "Analyze this code and suggest improvements: ";
 
 /**
@@ -56,7 +56,7 @@ const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
   } catch (error) {
     if (error.status == 429) {
       console.error('Rate limit exceeded. Please wait and try again later.');
-      return 'Rate limit exceeded. Please wait and try again later.';
+      return "Rate limit exceeded. Please wait and try again later.";
     } else {
       console.error('An error occurred:', error);
       return 'Error';
