@@ -5,8 +5,11 @@
 require('dotenv').config();
 const { OpenAI } = require("openai");
 
-const API_KEY = process.env.API_KEY || process.env.OPENAI_API_KEY;
+// Load environment variables
+const API_KEY = process.env.API_KEY
 const BASE_URL = process.env.BASE_URL;
+const systemPrompt = process.env.SYSTEM_PROMPT;
+const userPrompt = process.env.USER_PROMPT_SHORT;
 
 if (!API_KEY) {
   throw new Error("Missing API key.");
@@ -17,16 +20,12 @@ const api = new OpenAI({
   baseURL: BASE_URL,
 });
 
-const systemPrompt = "You are a helpful and nice teacher, be educational and provide positive feedback."; // limits character per line to 79
-const userPrompt = "Analyze this code and suggest improvements: ";
-
 /**
  * Function to analyze code using AI model.
  * @param {string} code - The input code to be analyzed.
  * @returns {Promise<string>} - AI-generated feedback and suggestions.
  */
 const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
-  console.log(temp)
   const body = {
     model: aiModel, // AI model used for analysis
     messages: [
@@ -39,8 +38,8 @@ const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
         content: userPrompt + code,
       },
     ],
-    temperature: temp, // Controls randomness of responses
-    top_p: _top_p, // Controls diversity of responses
+    temperature: 0.7, // Controls randomness of responses
+    //top_p: _top_p, // Controls diversity of responses
     max_tokens: 512, // Limits response length
   };
 
@@ -59,7 +58,7 @@ const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
       return "Rate limit exceeded. Please wait and try again later.";
     } else {
       console.error('An error occurred:', error);
-      return 'Error';
+      return 'Error in ai-module.js';
     }
   }
 };

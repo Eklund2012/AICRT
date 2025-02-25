@@ -5,60 +5,39 @@
 // This function triggers when the user clicks the 'Analyze Code' button
 
 document.getElementById('analyzeBtn').addEventListener('click', async () => {
-    const code = document.getElementById('code').value;  // Get the code input from the text area
+    const code = document.getElementById('code').value.trim();
     const aiModel = document.getElementById('aiModel').value;
-    var temperature = document.getElementById('temperature').value;
-    const temperatureNum = Number(temperature);
-    const top_p = document.getElementById('top-p').value;
-    const top_pNum = Number(top_p);
+    const temperature = Number(document.getElementById('temperature').value);
+    const top_p = Number(document.getElementById('top-p').value);
 
     if (!code) {
-        alert("Please enter some code!"); // Alert the user if no code is entered
+        alert("Please enter some code!");
         return;
     }
 
-    // Clean up spaces: remove leading/trailing spaces, replace multiple spaces with a single space
-    const cleanedCode = code.replace(/\s+/g, ' ').trim(); // Normalize whitespace for better analysis
-
     try {
-        const response = await fetch('api/analyze_code', {
+        const response = await fetch('/api/analyze_code', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ code: cleanedCode, aiModel: aiModel, temp: temperatureNum, top_p: top_pNum })
+            body: JSON.stringify({ code, aiModel, temp: temperature, top_p })
         });
 
         if (!response.ok) {
-            throw new Error(`HTTP error! Status: ${response.status}`); // Handle HTTP errors
+            throw new Error(`HTTP error! Status: ${response.status}`);
         }
 
-        const data = await response.json(); // Parse the JSON response from the server
-
-        // Display suggestions and highlight code parts
-        try {
-            const outputElement = document.getElementById('output');
-            if (outputElement) {
-                const { suggestions, language } = data; // Ensure API returns 'language'
+        const data = await response.json();
+        const outputElement = document.getElementById('output');
+        outputElement.innerHTML = `<pre>${escapeHtml(data.suggestions)}</pre>`;
         
-                if (suggestions) {
-                    const langClass = language ? `language-${language}` : "language-none"; // Default to 'none' if unknown
-                    outputElement.innerHTML = `<pre><code class="${langClass}">${escapeHtml(suggestions)}</code></pre>`;
-                    Prism.highlightAll(); // Apply Prism formatting
-                } else {
-                    outputElement.innerText = 'No suggestions received.';
-                }
-            } else {
-                console.error('Element with id "output" not found.');
-            }
-        } catch (error) {
-            console.error('An error occurred:', error);
-        }
     } catch (error) {
-        console.error("Error occurred:", error); // Log errors to the console
-        document.getElementById('output').innerText = `Error: ${error.message}`; // Display error messages to the user
+        console.error("Error occurred:", error);
+        document.getElementById('output').textContent = `Error: ${error.message}`;
     }
 });
 
-// Function to escape HTML (to prevent security issues like XSS)
+
+// Function to escape HTML to prevent XSS attacks
 function escapeHtml(unsafe) {
     return unsafe
         .replace(/&/g, "&amp;")
@@ -66,6 +45,16 @@ function escapeHtml(unsafe) {
         .replace(/>/g, "&gt;")
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
+}
+
+// Function to detect programming language
+function detectLanguage(code) {
+    if (/^\s*<.+?>/m.test(code)) return "html";
+    if (/^\s*function\s+|const\s+|let\s+|var\s+/m.test(code)) return "javascript";
+    if (/^\s*def\s+/m.test(code)) return "python";
+    if (/^\s*class\s+[A-Z]/m.test(code)) return "java";
+    if (/\{\s*\n\s*".+":\s*".+"/.test(code)) return "json";
+    return "plaintext"; // Default if unrecognized
 }
 
 // Fetch available AI models and populate dropdown with descriptions
