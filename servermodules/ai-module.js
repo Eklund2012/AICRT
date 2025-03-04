@@ -8,7 +8,7 @@ const { OpenAI } = require("openai");
 // Load environment variables
 const API_KEY = process.env.API_KEY
 const BASE_URL = process.env.BASE_URL;
-const systemPrompt = process.env.SYSTEM_PROMPT;
+const systemPrompt = process.env.SYSTEM_PROMPT_SHORT;
 const userPrompt = process.env.USER_PROMPT_SHORT;
 
 if (!API_KEY) {
@@ -38,8 +38,8 @@ const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
         content: userPrompt + code,
       },
     ],
-    temperature: 0.7, // Controls randomness of responses
-    //top_p: _top_p, // Controls diversity of responses
+    temperature: temp, // Controls randomness of responses
+    top_p: _top_p, // Controls diversity of responses
     max_tokens: 512, // Limits response length
   };
 

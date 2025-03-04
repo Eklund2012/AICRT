@@ -1,0 +1,3 @@
+function detectLanguage(code) {
+    if (/^\s*<.+?>/m.test(code)) return "html";
+    if (/^\s*function\s+|const\s+|let\s+|var\s+/m.test(code)) return "javascript";

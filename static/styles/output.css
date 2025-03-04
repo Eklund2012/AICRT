@@ -18,8 +18,8 @@
     word-wrap: break-word; /* Breaks long words to fit in the box */
     font-family: "Courier New", Courier, monospace; /* Monospaced font for code */
     font-size: 16px; /* Adjust as needed */
-    background-color: #f5f5f5c5; /* Light gray background for readability */
-    color: black; /* Text color */
+    background-color: #1b1b2f; /* Light gray background for readability */
+    color: white; /* Text color */
     padding: 10px; /* Padding around the code */
     border-radius: 5px; /* Rounded corners */
     overflow-x: auto; /* Adds horizontal scroll if the text overflows */

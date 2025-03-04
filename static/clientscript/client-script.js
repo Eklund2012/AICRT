@@ -5,10 +5,14 @@
 // This function triggers when the user clicks the 'Analyze Code' button
 
 document.getElementById('analyzeBtn').addEventListener('click', async () => {
-    const code = document.getElementById('code').value.trim();
+    console.log("Analyze button clicked");
+    const code_messy = document.getElementById('code').value.trim();
     const aiModel = document.getElementById('aiModel').value;
     const temperature = Number(document.getElementById('temperature').value);
     const top_p = Number(document.getElementById('top-p').value);
+
+    const code_no_linebreaks = code_messy.replace(/(\r\n|\n|\r)/gm, "");
+    const code = code_no_linebreaks.replace(/\s/g, '');
 
     if (!code) {
         alert("Please enter some code!");
@@ -27,11 +31,13 @@ document.getElementById('analyzeBtn').addEventListener('click', async () => {
         }
 
         const data = await response.json();
+
         const outputElement = document.getElementById('output');
         outputElement.innerHTML = `<pre>${escapeHtml(data.suggestions)}</pre>`;
-        
+
     } catch (error) {
         console.error("Error occurred:", error);
+        spinner.classList.add('d-none'); // Hide spinner on error
         document.getElementById('output').textContent = `Error: ${error.message}`;
     }
 });
@@ -111,5 +117,9 @@ document.getElementById('top-p').addEventListener('input', function () {
 const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
 tooltipTriggerList.map(function (tooltipTriggerEl) {
     return new bootstrap.Tooltip(tooltipTriggerEl);
+});
+
+document.getElementById("clearTextBtn").addEventListener("click", function () {
+    document.getElementById("code").value = "";
 });
 

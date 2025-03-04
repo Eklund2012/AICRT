@@ -34,9 +34,11 @@
                     <div class="card-body">
                         <!-- Code Input Section -->
                         <div class="mb-4">
-                            <label for="code" class="form-label fw-bold">💻 Your Code:</label>
-                            <textarea id="code" class="form-control" rows="10" placeholder="Paste your code here..."
-                                spellcheck="false"></textarea>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <label for="code" class="form-label fw-bold">💻 Your Code:</label>
+                                <button id="clearTextBtn" class="btn btn-danger m-1">🗑️ Clear</button>
+                            </div>
+                            <textarea id="code" class="form-control" rows="10" placeholder="Paste your code here..." spellcheck="false"></textarea>
                         </div>
 
                         <!-- AI Model and Advanced Settings -->
@@ -95,13 +97,17 @@
 
                         <!-- Analyze Button -->
                         <div class="text-center mb-4">
-                            <button id="analyzeBtn" class="btn btn-lg w-100">🔍 Analyze Code</button>
+                            <button id="analyzeBtn" class="btn btn-lg w-100" aria-label="Analyze the entered code">🔍
+                                Analyze Code</button>
                         </div>
 
                         <!-- Suggestions Output -->
                         <h4>💡 Suggestions :</h4>
                         <div id="output">
                             <p class="text-muted">No analysis yet. Paste code and click "Analyze".</p>
+                            <div class="spinner-border text-primary d-none" role="status">
+                                <span class="visually-hidden">Loading...</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -113,6 +119,8 @@
             <div>
                 <a href="https://github.com/Eklund2012/ai-code-review-tool" target="_blank"
                     class="btn btn-link btn-sm">GitHub</a>
+                <p class="text-muted mb-0">2025 AI Code Reviewer</p>
+
             </div>
         </footer>
     </div>
