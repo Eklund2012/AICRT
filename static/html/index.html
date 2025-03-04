@@ -36,7 +36,8 @@
                         <div class="mb-4">
                             <div class="d-flex justify-content-between align-items-center">
                                 <label for="code" class="form-label fw-bold">💻 Your Code:</label>
-                                <button id="clearTextBtn" class="btn btn-danger m-1">🗑️ Clear</button>
+                                <p id="codeInfo"></p>
+                                <button id="clearTextBtn" class="btn btn-danger m-1">🗑️ Clear Code</button>
                             </div>
                             <textarea id="code" class="form-control" rows="10" placeholder="Paste your code here..." spellcheck="false"></textarea>
                         </div>
@@ -102,7 +103,7 @@
                         </div>
 
                         <!-- Suggestions Output -->
-                        <h4>💡 Suggestions :</h4>
+                        <h4 class="text-light">💡 Suggestions :</h4>
                         <div id="output">
                             <p class="text-muted">No analysis yet. Paste code and click "Analyze".</p>
                             <div class="spinner-border text-primary d-none" role="status">

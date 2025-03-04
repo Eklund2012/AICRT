@@ -9,7 +9,7 @@ const cors = require("cors");
 require('dotenv').config();
 const path = require('path');
 const fs = require('fs');
-
+const { encode } = require("gpt-3-encoder"); // Import encoder
 
 // Define the port for the server to listen on
 const PORT = process.env.PORT || 5000;
@@ -35,6 +35,21 @@ app.get('/', function (request, response) {
     }
   });
 });
+
+app.post("/tokenize", (req, res) => {
+  try {
+    const { message } = req.body;
+    if (!message) {
+      return res.status(400).json({ error: "Message is required" });
+    }
+    const tokenCount = encode(message).length;
+    res.json({ tokenCount });
+  } catch (error) {
+    console.error("Tokenization error:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
+});
+
 
 // Serve models.json as an API response
 app.get('/models', (req, res) => {

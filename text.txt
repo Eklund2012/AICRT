@@ -1,3 +1,10 @@
 function detectLanguage(code) {
     if (/^\s*<.+?>/m.test(code)) return "html";
     if (/^\s*function\s+|const\s+|let\s+|var\s+/m.test(code)) return "javascript";
+
+5. Question: What errors might occur when using the API?
+Answer: The most common errors when working with the API are:
+401 Unauthorized – Check if your API key is correct.
+403 Forbidden – Your API key does not have access to this resource.
+429 Too Many Requests – You have exceeded the request limit per minute.
+500 Internal Server Error – Temporary server error, please try again later.

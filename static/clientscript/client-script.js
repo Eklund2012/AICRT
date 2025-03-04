@@ -1,8 +1,28 @@
 // client-script.js
 'use strict';
-
 // Event listener for the analyze button
 // This function triggers when the user clicks the 'Analyze Code' button
+
+async function countTokens(message) {
+    const response = await fetch('/tokenize', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message })
+    });
+
+    const data = await response.json();
+    console.log(`Token count: ${data.tokenCount}`);
+    document.getElementById('codeInfo').textContent = data.tokenCount;
+    return data.tokenCount;
+}
+
+// Example: Call this function when input changes
+document.getElementById('code').addEventListener('input', async function () {
+    const message = this.value.trim();
+    if (message) {
+        await countTokens(message);
+    }
+});
 
 document.getElementById('analyzeBtn').addEventListener('click', async () => {
     console.log("Analyze button clicked");
@@ -51,16 +71,6 @@ function escapeHtml(unsafe) {
         .replace(/>/g, "&gt;")
         .replace(/"/g, "&quot;")
         .replace(/'/g, "&#039;");
-}
-
-// Function to detect programming language
-function detectLanguage(code) {
-    if (/^\s*<.+?>/m.test(code)) return "html";
-    if (/^\s*function\s+|const\s+|let\s+|var\s+/m.test(code)) return "javascript";
-    if (/^\s*def\s+/m.test(code)) return "python";
-    if (/^\s*class\s+[A-Z]/m.test(code)) return "java";
-    if (/\{\s*\n\s*".+":\s*".+"/.test(code)) return "json";
-    return "plaintext"; // Default if unrecognized
 }
 
 // Fetch available AI models and populate dropdown with descriptions
