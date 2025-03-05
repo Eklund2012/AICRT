@@ -11,8 +11,6 @@ async function countTokens(message) {
     });
 
     const data = await response.json();
-    console.log(`Token count: ${data.tokenCount}`);
-    document.getElementById('codeInfo').textContent = data.tokenCount;
     return data.tokenCount;
 }
 
@@ -20,7 +18,20 @@ async function countTokens(message) {
 document.getElementById('code').addEventListener('input', async function () {
     const message = this.value.trim();
     if (message) {
-        await countTokens(message);
+        const tokens = await countTokens(message); // Await the token count
+
+        const analyzeBtn = document.getElementById('analyzeBtn');
+        const codeInfo = document.getElementById('codeInfo');
+
+        if (tokens > 100) {
+            analyzeBtn.disabled = true;
+            codeInfo.textContent = `Tokens: ${tokens}/100 (Max limit exceeded)`;
+            codeInfo.classList.add('text-danger');
+        } else {
+            analyzeBtn.disabled = false;
+            codeInfo.textContent = `Tokens: ${tokens}/100`;
+            codeInfo.classList.remove('text-danger');
+        }
     }
 });
 
@@ -131,5 +142,7 @@ tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 document.getElementById("clearTextBtn").addEventListener("click", function () {
     document.getElementById("code").value = "";
+    document.getElementById('codeInfo').textContent = "Tokens: " + "0/100";
+    document.getElementById('codeInfo').classList.remove('text-danger');
 });
 
