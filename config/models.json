@@ -57,20 +57,6 @@
         "features": [
           "openai/chat-completion"
         ]
-      },
-      {
-        "id": "deepseek-chat",
-        "type": "chat-completion",
-        "info": {
-          "name": "DeepSeek V3",
-          "developer": "DeepSeek AI",
-          "description": "DeepSeek-V3 is an advanced LLM with efficient architecture and high performance across various natural language tasks.",
-          "contextLength": 128000,
-          "url": "https://aimlapi.com/models/deepseek-v3"
-        },
-        "features": [
-          "openai/chat-completion"
-        ]
       }
     ]
   }

@@ -40,7 +40,7 @@ const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
     ],
     temperature: temp, // Controls randomness of responses
     top_p: _top_p, // Controls diversity of responses
-    max_tokens: 512, // Limits response length
+    max_tokens: 300, // Limits response length
   };
 
   try {
