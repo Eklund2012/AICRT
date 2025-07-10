@@ -27,7 +27,8 @@ const api = new OpenAI({
  */
 const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
   const body = {
-    model: aiModel, // AI model used for analysis
+    //model: aiModel, // AI model used for analysis
+    model: "google/gemma-3-4b-it",
     messages: [
       {
         role: "system",
@@ -40,7 +41,7 @@ const analyze_with_ai = async (code, aiModel, temp, _top_p) => {
     ],
     temperature: temp, // Controls randomness of responses
     top_p: _top_p, // Controls diversity of responses
-    max_tokens: 300, // Limits response length
+    max_tokens: 256, // Limits response length
   };
 
   try {

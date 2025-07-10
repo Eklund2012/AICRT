@@ -53,7 +53,7 @@ app.post("/tokenize", (req, res) => {
 
 // Serve models.json as an API response
 app.get('/models', (req, res) => {
-  const modelsPath = path.join(__dirname, 'config/models.json'); // ✅ Ensure this path is correct
+  const modelsPath = path.join(__dirname, 'config/models.json');
 
   fs.readFile(modelsPath, 'utf8', (err, data) => {
     if (err) {
