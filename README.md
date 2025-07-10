@@ -1,3 +1,3 @@
-## AICRT - Artifical Intelligence Code Review Tool
+# AICRT - Artifical Intelligence Code Review Tool
 
-# Combines different AI models into one website, focused on Code-review and code feedback.
+## Combines different AI models into one website, focused on Code-review and code feedback.
